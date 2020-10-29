@@ -13,11 +13,22 @@
 
 //= require jquery
 //= require jquery_ujs
+//= require jquery-migrate
+//= require medigo-custom
+//= require plugins
 //= require turbolinks
-//= require_tree .
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
 //= require jquery3
 //= require popper
 //= require bootstrap
+//= require_tree .
+
+$(document).ready(function() {
+  $('#myCarousel').carousel({
+    interval: 10000
+  });
+});
+
+

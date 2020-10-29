@@ -38,10 +38,10 @@ $navbar-default-bg:black;
     text-align: center;
 }
 
-.jumbotron{
+.parallax{
     background-image: asset-url('lemon.jpg');
     background-size:cover;
-    height:300px;
+    
 }
 
 .jumbotron h1 {
@@ -102,6 +102,34 @@ $navbar-default-bg:black;
 
 .input_checkbox input {
   width: auto !important;
+}
+
+#header{
+  width: 100%;
+  height: 25vh;
+  background-color: #333;
+  position: relative;
+}
+
+#header_h1{
+  text-align: center;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50, -50%);
+  font-size: 5rem;
+  color: #cd3a3a;
+  letter-spacing: 3px;
+  margin-right: -3px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.fixed{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 31;
+  
 }
 
 
