@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get 'pages/contact', to: 'pages#contact'
   get 'pages/about', to: 'pages#about'
   
+  post '/search' => 'recipes#search'
+  
   resources :recipes do
     resources :comments, only: [:create]
   end

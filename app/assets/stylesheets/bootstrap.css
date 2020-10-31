@@ -442,7 +442,7 @@ pre code { padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap
   .col-md-offset-10 { margin-left: 83.33333%; }
   .col-md-offset-11 { margin-left: 91.66667%; }
   .col-md-offset-12 { margin-left: 100%; } }
-@media (min-width: 1200px) { .container { width: auto; }
+@media (min-width: 1200px) { .container { width: 1180px; }
   .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1 { float: left; }
   .col-lg-1 { width: 8.33333%; }
   .col-lg-2 { width: 16.66667%; }
@@ -1765,7 +1765,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .navbar-text { float: left; margin-top: 15px; margin-bottom: 15px; }
 @media (min-width: 768px) { .navbar-text { margin-left: 20px; margin-right: 20px; } }
 
-.navbar-default { background-color: #f8f8f8; border-color: #e7e7e7;margin-right: 20px;margin-left: 20px; }
+.navbar-default { background-color: #f8f8f8; border-color: #e7e7e7; }
 .navbar-default .navbar-brand { color: #777777; }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { color: #5e5e5e; background-color: transparent; }
 .navbar-default .navbar-text { color: #777777; }

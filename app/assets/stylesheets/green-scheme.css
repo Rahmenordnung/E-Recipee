@@ -219,7 +219,7 @@ a, a:visited {
 }
 .main-nav ul li.active a {
   color: #63bc63;
-  background-color: #50cf8b;;
+  background-color: #f1f4f5;
 }
 .main-nav ul li ul {
   display: none;
@@ -1286,8 +1286,6 @@ blockquote {
   padding: 100px 0;
   color: #aaaaaa;
   font-family: "Raleway", sans-serif;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 
 .footer-menu li {
