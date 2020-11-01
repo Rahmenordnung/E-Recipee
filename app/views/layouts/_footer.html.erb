@@ -1,25 +1,32 @@
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="footer-nav clearfix">
-                        <ul class="footer-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="blog.html">Blog Posts</a></li>
-
-                            <li><%=link_to "About", pages_about_path%></li>
-                            
-                            <li><%=link_to "Contact", pages_contact_path%></li>
-                        </ul> <!-- /.footer-menu -->
-                    </nav> <!-- /.footer-nav -->
-                </div> <!-- /.col-md-12 -->
-            </div> <!-- /.row -->
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="copyright-text">Copyright &copy; 2084 Company Name
-                    | Design: templatemo</p>
-                </div> <!-- /.col-md-12 -->
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
-    </footer> <!-- /.site-footer -->
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Bottom navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropup">
+            <a class="nav-link dropdown-toggle" href="https://getbootstrap.com/" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown10">
+              <a class="dropdown-item" href="#"><%=link_to "About", pages_about_path%></a>
+              <a class="dropdown-item" href="#"><%=link_to "Contact", pages_contact_path%></a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              
+     
+            </div>
+          </li>
+        </ul>
+                         <p class="float-right">
+                  <a href="#">Back to top</a>
+                </p>
+      </div>
+    </nav>
